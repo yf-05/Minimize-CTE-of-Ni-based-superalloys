@@ -20,7 +20,7 @@ LinearElastic_general.fit(x_train_general, y_train_general)
 feature_general = np.array(pd.read_excel('dataset.xlsx',
                                          sheet_name='feature-general', index_col=0))
 x_original = np.array(pd.read_excel('dataset.xlsx', usecols='A:U',
-                                    sheet_name='Sheet1', index_col=0))
+                                    sheet_name='original population', index_col=0))
 
 
 # %% geatpy optimize CTE#
